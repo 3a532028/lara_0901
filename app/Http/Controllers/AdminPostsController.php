@@ -28,4 +28,7 @@ public function create()
 
         return view('admin.posts.edit', $data);
     }
+    public function store(){
+
+    }
 }
